@@ -117,3 +117,42 @@ console.log(liek);
 liek %= 5;
 console.log(liek);
 
+console.clear();
+
+let i = 0;
+console.log(i);
+
+i = i + 1;
+console.log(i);
+
+i = i + 1;
+console.log(i);
+
+i++;
+console.log(i);
+
+++i;
+console.log(i);
+
+let m = 0;
+console.log(m);
+
+m = m - 1;
+console.log(m);
+
+m -= 1;
+console.log(m);
+
+m --;
+console.log(m);
+
+--m;
+console.log(m);
+
+console.clear();
+
+let n = 0;
+
+console.log(n);
+console.log(n++);
+console.log(n);
