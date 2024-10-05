@@ -30,14 +30,24 @@ function multiply (a, b) {
 
     return result;
 }
-
+// o cia yra Ok
 console.log(multiply(7, 5));
 console.log(multiply(-7, 5));
 console.log(multiply(-7, -5));
+
+// tipai
 console.log(multiply('labas', 5));
+
+// ne skaiciai
 console.log(multiply(5, Infinity));
+
+// ne tipai
+console.log(multiply([], 1));
+console.log(multiply([], []));
+
 console.log(multiply(5, NaN));
 console.log(multiply(NaN, NaN));
+
 console.log(multiply(multiply, multiply)); 
 console.log(multiply(2, multiply)); 
 console.log(multiply(2, 0)); // daugybos atveju puikiai veikia, dalybos ne!
