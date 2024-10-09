@@ -4,6 +4,8 @@ function numberLength(number) {
 if (typeof number !== 'number' || !isFinite(number)) {
     return 'Pateikta netinkamo tipo reiksme';
 }
+    console.log('--------------------------');
+    console.log(number);
 
     // number = Math.abs(number);
    // number = number < 0 ? -number : number;
@@ -44,6 +46,7 @@ console.log(numberLength(-54879531452), '->', 11 );
 console.log(numberLength(-3.14), '->', 3 );
 console.log(numberLength(-3.14), '->', 3 );
 
+console.log(numberLength(1000000000000000000000));
 
 
 
